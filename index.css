@@ -1,0 +1,58 @@
+body{
+  background-color: blanchedalmond;
+}
+
+.app{
+  display: flex;
+  align-items: center;
+
+}
+
+.calculator{
+  width: 100%;
+  max-width: 400px;
+  background-color: white;
+  border-radius: 20px;
+
+}
+
+.display{
+  padding: 20px;
+  text-align: right;
+  background-color: black;
+  color: white;
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.display span{
+  font-size: 14px;
+  color: white;
+
+}
+button{
+  border: none;
+  outline: none;
+  font-size: 20px;
+  padding: 20px;
+  cursor: pointer;
+}
+button:hover{
+  opacity: 0.9;
+}
+.operators{
+  display: flex;
+}
+.operators button{
+  flex: 1 1 0%;
+  background-color: yellowgreen;
+  font-weight: 700;
+}
+.digits{
+  display: flex;
+  flex-wrap: wrap;
+}
+.digits button{
+  flex: 1 1 33.33%;
+  background-color: black;
+}
