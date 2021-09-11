@@ -21,6 +21,7 @@ const App = ({name}) => {
         }
         const value = calc.slice(0,-1);
         setCalc(value);
+    
     }
     
     return (
